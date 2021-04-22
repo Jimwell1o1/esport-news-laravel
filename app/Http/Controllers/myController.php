@@ -11,4 +11,29 @@ class myController extends Controller
 
         return view('index');
     }
+
+    public function about(){
+
+        return view('about');
+    }
+
+    public function news(){
+
+        return view('news');
+    }
+
+    public function gallery(){
+
+        return view('gallery');
+    }
+
+    public function team(){
+
+        return view('team');
+    }
+
+    public function contact(){
+
+        return view('contact');
+    }
 }
