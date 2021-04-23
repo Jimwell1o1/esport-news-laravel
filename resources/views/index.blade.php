@@ -6,6 +6,7 @@
 @endsection
 
 @section('nav')
+<p>copypaste</p>
 <nav id="navbar" class="navbar">
             <ul>
               <li><a class="nav-link scrollto active" href="{{ url('index') }}">Home</a></li>
