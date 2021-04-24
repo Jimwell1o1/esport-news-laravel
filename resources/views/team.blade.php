@@ -17,3 +17,20 @@
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
           </nav><!-- .navbar -->
+
+@endsection
+
+@section('content')
+
+<br><br><br>
+
+
+<!-- ======= Team Section ======= -->
+<section id="team">
+  <div class="container" data-aos="fade-up">
+    <div class="section-header">
+      <h3>Team</h3>
+      <p>We have the most enthusiastic team management on this Esports platform, who knows you could be part of our team too.</p>
+    </div>
+
+    <div class="row">
