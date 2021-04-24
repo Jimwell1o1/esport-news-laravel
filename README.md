@@ -11,18 +11,18 @@
 
 ## CONTRIBUTIONS
 
-### RABINO, JOHN JIMWELL
+#### RABINO, JOHN JIMWELL
 - Routing
 - Controllers
 - Views (Index.blade.php, News.blade.php, Contact.blade.php)
 
-### DUMAPIAS, AARON JOHN
+#### DUMAPIAS, AARON JOHN
 - Views (About.blade.php)
 
-### RAYMUNDO, JAN CARLO
+#### RAYMUNDO, JAN CARLO
 - Views (Gallery.blade.php)
 
-### PACLIBAR, JOHN CARLO
+#### PACLIBAR, JOHN CARLO
 - Views (Team.blade.php)
 
 ## HOW TO RUN LARAVEL FROM GITHUB
