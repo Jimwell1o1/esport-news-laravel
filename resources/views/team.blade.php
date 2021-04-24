@@ -111,7 +111,7 @@
   <div class="container" data-aos="fade-up">
 
     <header class="section-header">
-      <h3>Influencer</h3>
+      <h3>Influencers</h3>
     </header>
 
     <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">

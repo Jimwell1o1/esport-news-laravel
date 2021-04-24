@@ -70,7 +70,7 @@
   <div class="container text-center" data-aos="zoom-in">
     <h3>See Latest News in Esports</h3>
     <p>This is the place to check out latest and greatest Esports news. We cover every major Esports game, including League Of Legends, Dota 2, Mobile Legends, Call Of Duty and Valorant. We write articles about major player signings, roster changes, tournament wins, and everything else to do with the world of Esports. If you're interested in professional gaming and high-level play, then there's no better site on the web to get your news.</p>
-    <a class="cta-btn" href="news.html">Read Articles</a>
+    <a class="cta-btn" href="{{ url('news') }}">Read Articles</a>
   </div>
 </section><!-- End Call To Action Section -->
 
