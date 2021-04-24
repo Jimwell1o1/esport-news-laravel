@@ -44,4 +44,22 @@
         <div class="icon"><i class="bi bi-bar-chart"></i></div>
         <h4 class="title"><a href="">Esports the fastest growing sport</a></h4>
         <p class="description">From being a relatively fringe pastime for endemic fans to cutting across gender, age, and nationality, esports is now one of the fastest-growing professional sports in the world. In fact, esports has grown so quickly that analysts are predicting the industry will be worth $1.5 billion by 2023.</p>
+      </div><div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="200">
+        <div class="icon"><i class="bi bi-controller"></i></div>
+        <h4 class="title"><a href="">Become a Professional Gamer</a></h4>
+        <p class="description">To become a pro gamer and really make a career out of it, you'll need to hone your skills in one game. Only the very best, most exceptional players will become pro gamers and earn money by winning competitions - so it's no good being a jack of all games and a master of none.</p>
       </div>
+      <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="300">
+        <div class="icon"><i class="bi bi-brightness-high"></i></div>
+        <h4 class="title"><a href="">The Future of Esports</a></h4>
+        <p class="description">Whether people will be playing on their mobiles or computers, watching games on Twitch comfortably from their couches or attending "mega-events," one thing is for sure. eSports, with a growing number of players and viewers, increasing revenues and popularity, and with an unprecedented easy of accessibility, allowing almost anyone to join (if they're willing to put in the sweat and tears), has what one can only assume is a very bright future.</p>
+      </div>
+      <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="400">
+        <div class="icon"><i class="bi bi-play-btn"></i></div>
+        <h4 class="title"><a href="">Esports Live Streaming Online</a></h4>
+        <p class="description">Esports live streams are readily accessible for free, with some of the biggest live streaming services including names like Twitch and Youtube. You can watch matches that interest you that have already been played. Some of the pro esports teams even have their own live streaming services. Studying video footage of professionals can be a great tool for both players and those betting on esports, with knowledge king in this sport.</p>
+      </div>
+
+    </div>
+
+  </div>
