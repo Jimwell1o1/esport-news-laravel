@@ -15,11 +15,11 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="news.html">News</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="about.html">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="portfolio.html">Gallery</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="contact.html">Contact Us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{{ url('index') }}">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{{ url('news') }}">News</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{{ url('about') }}">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{{ url('gallery') }}">Gallery</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{{ url('contact') }}">Contact Us</a></li>
             </ul>
           </div>
 
