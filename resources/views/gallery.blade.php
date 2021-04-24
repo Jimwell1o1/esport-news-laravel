@@ -74,3 +74,22 @@
       </div>
     </div>
   </section><!-- End Portfolio Details Section -->
+
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="section-bg">
+        <div class="container" data-aos="fade-up">
+  
+          <header class="section-header">
+            <h3 class="section-title">Our Portfolio</h3>
+          </header>
+  
+          <div class="row" data-aos="fade-up" data-aos-delay="100"">
+        <div class=" col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Victories</li>
+              <li data-filter=".filter-card">Focus</li>
+              <li data-filter=".filter-web">In-game</li>
+            </ul>
+          </div>
+        </div>
