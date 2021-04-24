@@ -68,3 +68,21 @@
           </div>
         </div>
       </div>
+
+
+      <div class="col-lg-3 col-md-6">
+        <div class="member" data-aos="fade-up" data-aos-delay="300">
+          <img src="{{ asset('/img/team/team-3.jpg') }}" class="img-fluid" alt="">
+          <div class="member-info">
+            <div class="member-info-content">
+              <h4>Jan Carlo Raymundo</h4>
+              <span>Content Manager</span>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
