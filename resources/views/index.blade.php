@@ -69,7 +69,7 @@
             <div class="carousel-container">
               <div class="container">
                 <h2 class="animate__animated animate__fadeInDown">We are a team!</h2>
-                <p class="animate__animated animate__fadeInUp">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
+                <p class="animate__animated animate__fadeInUp">Just like any team sports, we have our most enthusiastic leaders because we love to give the genuine information about Esports Industry. </p>
                 <a href="team.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Look at it</a>
               </div>
             </div>
