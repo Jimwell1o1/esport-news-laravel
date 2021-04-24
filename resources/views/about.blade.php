@@ -98,3 +98,27 @@
           <span class="skill">Call of Duty <i class="val">90%</i></span>
         </div>
       </div>
+      
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <span class="skill">League of Legends <i class="val">75%</i></span>
+        </div>
+      </div>
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+          <span class="skill">Valorant <i class="val">55%</i></span>
+        </div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+          <span class="skill">Mobile Legends <i class="val">30%</i></span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Skills Section -->
+
+      @endsection
