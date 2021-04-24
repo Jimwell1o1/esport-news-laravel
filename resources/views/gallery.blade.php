@@ -215,3 +215,27 @@
               </div>
             </div>
           </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{{ asset('/img/portfolio/web1.jpg') }}" class="img-fluid" alt="">
+                <a href="{{ asset('/img/portfolio/web1.jpg') }}" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 1"><i class="bi bi-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Hobby</a></h4>
+                <p>In-game</p>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+  
+        </div>
+      </section><!-- End Portfolio Section -->
+  
+  
+
+  @endsection
