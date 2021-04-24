@@ -3,10 +3,10 @@
 
 ## GROUP MEMBERS
 
-RABINO, JOHN JIMWELL - LEADER
-PACLIBAR, JOHN CARLO 
-RAYMUNDO, JAN CARLO 
-DUMAPIAS, AARON JOHN
+-RABINO, JOHN JIMWELL - LEADER
+-PACLIBAR, JOHN CARLO 
+-RAYMUNDO, JAN CARLO 
+-DUMAPIAS, AARON JOHN
 
 
 ## CONTRIBUTIONS
@@ -28,8 +28,8 @@ DUMAPIAS, AARON JOHN
 ## HOW TO RUN LARAVEL FROM GITHUB
 
 1. Download the Github Repository 
-2. Open CMD and go to root folder of laravel
-Run like this(Example): 
+2. Open CMD and go to root folder of laravel\
+Run like this(Example): \
     cd C:\xampp\htdocs\Laravel\LaravelProject
 3. After you change the directory, type and enter this: 'composer update'
 4. After successful update, type and enter this: 'copy .env.example .env'
