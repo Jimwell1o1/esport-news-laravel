@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.master')
 
 @section('headercontent')
 <header id="header" class="fixed-top d-flex align-items-center">
@@ -17,14 +17,11 @@
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
           </nav><!-- .navbar -->
-
 @endsection
 
 @section('content')
 
 <br><br><br>
-
-
 <!-- ======= Team Section ======= -->
 <section id="team">
   <div class="container" data-aos="fade-up">
@@ -35,7 +32,7 @@
 
     <div class="row">
 
-    <div class="col-lg-3 col-md-6">
+      <div class="col-lg-3 col-md-6">
         <div class="member" data-aos="fade-up" data-aos-delay="100">
           <img src="{{ asset('/img/team/team-1.jpg') }}" class="img-fluid" alt="">
           <div class="member-info">
@@ -50,11 +47,11 @@
             </div>
           </div>
         </div>
-    </div>
+      </div>
 
-<div class="col-lg-3 col-md-6">
-    <div class="member" data-aos="fade-up" data-aos-delay="200">
-        <img src="{{ asset('/img/team/team-2.jpg') }}" class="img-fluid" alt="">
+      <div class="col-lg-3 col-md-6">
+        <div class="member" data-aos="fade-up" data-aos-delay="200">
+          <img src="{{ asset('/img/team/team-2.jpg') }}" class="img-fluid" alt="">
           <div class="member-info">
             <div class="member-info-content">
               <h4>Aaron John Dumapias</h4>
@@ -68,7 +65,6 @@
           </div>
         </div>
       </div>
-
 
       <div class="col-lg-3 col-md-6">
         <div class="member" data-aos="fade-up" data-aos-delay="300">
@@ -86,7 +82,6 @@
           </div>
         </div>
       </div>
-
 
       <div class="col-lg-3 col-md-6">
         <div class="member" data-aos="fade-up" data-aos-delay="400">
@@ -110,12 +105,13 @@
   </div>
 </section><!-- End Team Section -->
 
+
 <!-- ======= Testimonials Section ======= -->
 <section id="testimonials" class="section-bg">
   <div class="container" data-aos="fade-up">
 
     <header class="section-header">
-      <h3>Testimonials</h3>
+      <h3>Influencer</h3>
     </header>
 
     <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
@@ -193,38 +189,24 @@
   </div>
 </section><!-- End Testimonials Section -->
 
-
-      
-
-      
-
-
-
-
-
-
-   
-
-    
-
 <!-- ======= Our Clients Section ======= -->
 <section id="clients">
   <div class="container" data-aos="zoom-in">
 
     <header class="section-header">
-      <h3>Our Clients</h3>
+      <h3>OUR SPONSORS</h3>
     </header>
 
     <div class="clients-slider swiper-container">
       <div class="swiper-wrapper align-items-center">
-        <div class="swiper-slide"><img src="{{ asset('/img/clients/client-1.png') }}" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="{{ asset('/img/clients/client-2.png') }}" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="{{ asset('/img/clients/client-3.png') }}" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="{{ asset('/img/clients/client-4.png') }}" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="{{ asset('/img/clients/client-5.png') }}" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="{{ asset('/img/clients/client-6.png') }}" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="{{ asset('/img/clients/client-7.png') }}" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="{{ asset('/img/clients/client-8.png') }}" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><a href = "https://www.amd.com/en"><img src="{{ asset('/img/clients/client-11.png') }}" class="img-fluid" alt=""></a></div>
+        <div class="swiper-slide"><a href = "https://www.nvidia.com/en-us/location-selector/"><img src="{{ asset('/img/clients/client-21.png') }}" class="img-fluid" alt=""></a></div>
+        <div class="swiper-slide"><a href = "https://www.garena.ph/"><img src="{{ asset('/img/clients/client-31.png') }}" class="img-fluid" alt=""></a></div>
+        <div class="swiper-slide"><a href = "https://www.logitech.com/en-roeu/solutions/business"><img src="{{ asset('/img/clients/client-41.png') }}" class="img-fluid" alt=""></a></div>
+        <div class="swiper-slide"><a href = "https://smart.com.ph/corporate"><img src="{{ asset('/img/clients/client-51.png') }}" class="img-fluid" alt=""></a></div>
+        <div class="swiper-slide"><a href = "https://www.globe.com.ph/#gref"><img src="{{ asset('/img/clients/client-61.png') }}" class="img-fluid" alt=""></a></div>
+        <div class="swiper-slide"><a href = "https://www.tencent.com/en-us/about.html"><img src="{{ asset('/img/clients/client-71.png') }}" class="img-fluid" alt=""></a></div>
+        <div class="swiper-slide"><a href = "https://www.riotgames.com/en"><img src="{{ asset('/img/clients/client-81.png') }}" class="img-fluid" alt=""></a></div>
       </div>
       <div class="swiper-pagination"></div>
     </div>
