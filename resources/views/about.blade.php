@@ -73,3 +73,28 @@
     <a class="cta-btn" href="news.html">Read Articles</a>
   </div>
 </section><!-- End Call To Action Section -->
+
+<!-- ======= Skills Section ======= -->
+<section id="skills">
+  <div class="container" data-aos="fade-up">
+
+    <header class="section-header">
+      <h3>The Best Competitive Games Of All Time</h3>
+      <p>The rising popularity of esports combined with live service games has led to a much more competitive landscape within gaming.
+
+        A majority of today’s online multiplayer games receive continuous updates in the form of new content, gameplay rebalancing and QoL advancements. This creates a constantly evolving metagame in which the average player doesn’t stand a chance against die-hards striving to be the best.</p>
+    </header>
+
+    <div class="skills-content">
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+          <span class="skill">Dota 2 <i class="val">100%</i></span>
+        </div>
+      </div>
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+          <span class="skill">Call of Duty <i class="val">90%</i></span>
+        </div>
+      </div>
