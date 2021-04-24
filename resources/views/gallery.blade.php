@@ -93,3 +93,35 @@
             </ul>
           </div>
         </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{{ asset('/img/portfolio/app1.jpg') }}" class="img-fluid" alt="">
+                <a href="{{ asset('/img/portfolio/app1.jpg') }}" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="App 1"><i class="bi bi-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">The Champions</a></h4>
+                <p>Victories</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{{ asset('/img/portfolio/web3.jpg') }}" class="img-fluid" alt="">
+                <a href="{{ asset('/img/portfolio/web3.jpg') }}" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Competitive</a></h4>
+                <p>Focus</p>
+              </div>
+            </div>
+          </div>
