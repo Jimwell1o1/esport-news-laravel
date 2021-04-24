@@ -170,3 +170,18 @@
               </div>
             </div>
           </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{{ asset('/img/portfolio/app3.jpg') }}" class="img-fluid" alt="">
+                <a href="{{ asset('/img/portfolio/app3.jpg') }}" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="App 3"><i class="bi bi-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Proud</a></h4>
+                <p>Victories</p>
+              </div>
+            </div>
+          </div>
