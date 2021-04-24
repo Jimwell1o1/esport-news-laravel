@@ -50,7 +50,7 @@
               <div class="container">
                 <h2 class="animate__animated animate__fadeInDown">What exactly is Esport?</h2>
                 <p class="animate__animated animate__fadeInUp">Esports is a form of video game competition. Esports are often organized, multiplayer video game competitions, especially between professional players, either individually or as teams.</p>
-                <a href="services.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Learn more</a>
+                <a href="{{ url('about') }}" class="btn-get-started scrollto animate__animated animate__fadeInUp">Learn more</a>
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@
               <div class="container">
                 <h2 class="animate__animated animate__fadeInDown">Visit Our Experiences!</h2>
                 <p class="animate__animated animate__fadeInUp">We have our aesthetic shots where players have the most incredible moments and memories. Simply press the View Gallery button to see what's inside.</p>
-                <a href="portfolio.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">View Gallery</a>
+                <a href="{{ url('gallery') }}" class="btn-get-started scrollto animate__animated animate__fadeInUp">View Gallery</a>
               </div>
             </div>
           </div>
@@ -69,8 +69,8 @@
             <div class="carousel-container">
               <div class="container">
                 <h2 class="animate__animated animate__fadeInDown">We are a team!</h2>
-                <p class="animate__animated animate__fadeInUp">Just like any team sports, we have our most enthusiastic leaders because we love to give the genuine information about Esports Industry. </p>
-                <a href="team.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Look at it</a>
+                <p class="animate__animated animate__fadeInUp">Just like any team sports, we have our most enthusiastic leaders because we love to give a very genuine information and up to date news about Esports Industry. </p>
+                <a href="{{ url('team') }}" class="btn-get-started scrollto animate__animated animate__fadeInUp">Look at it</a>
               </div>
             </div>
           </div>
@@ -80,7 +80,7 @@
               <div class="container">
                 <h2 class="animate__animated animate__fadeInDown">Contact Us!</h2>
                 <p class="animate__animated animate__fadeInUp">Get in touch with us if you want to reach us. If you need anything other than our services, please contact us and we will get back to you as soon as possible!</p>
-                <a href="contact.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Contact Us</a>
+                <a href="{{ url('contact') }}" class="btn-get-started scrollto animate__animated animate__fadeInUp">Contact Us</a>
               </div>
             </div>
           </div>
