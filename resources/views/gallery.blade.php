@@ -100,7 +100,8 @@
             <div class="portfolio-wrap">
               <figure>
                 <img src="{{ asset('/img/portfolio/app1.jpg') }}" class="img-fluid" alt="">
-                <a href="{{ asset('/img/portfolio/app1.jpg') }}" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="App 1"><i class="bi bi-plus"></i></a>
+                <a href="{{ asset('/img/portfolio/app1.jpg') }}" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery"><i class="bi bi-plus"></i></a>
+                <a href="{{ url('gallery') }}" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
               </figure>
   
               <div class="portfolio-info">
@@ -114,7 +115,8 @@
             <div class="portfolio-wrap">
               <figure>
                 <img src="{{ asset('/img/portfolio/web3.jpg') }}" class="img-fluid" alt="">
-                <a href="{{ asset('/img/portfolio/web3.jpg') }}" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+                <a href="{{ asset('/img/portfolio/web3.jpg') }}" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery"><i class="bi bi-plus"></i></a>
+                <a href="{{ url('gallery') }}" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
               </figure>
   
               <div class="portfolio-info">
@@ -128,8 +130,8 @@
             <div class="portfolio-wrap">
               <figure>
                 <img src="{{ asset('/img/portfolio/app2.jpg') }}" class="img-fluid" alt="">
-                <a href="{{ asset('/img/portfolio/app2.jpg') }}" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="App 2"><i class="bi bi-plus"></i></a>
-                
+                <a href="{{ asset('/img/portfolio/app2.jpg') }}" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery"><i class="bi bi-plus"></i></a>
+                <a href="{{ url('gallery') }}" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
               </figure>
   
               <div class="portfolio-info">
@@ -143,8 +145,8 @@
             <div class="portfolio-wrap">
               <figure>
                 <img src="{{ asset('/img/portfolio/card2.jpg') }}" class="img-fluid" alt="">
-                <a href="{{ asset('/img/portfolio/card2.jpg') }}assets/img/portfolio/card2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 2"><i class="bi bi-plus"></i></a>
-                
+                <a href="{{ asset('/img/portfolio/card2.jpg') }}" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" ><i class="bi bi-plus"></i></a>
+                <a href="{{ url('gallery') }}" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
               </figure>
   
               <div class="portfolio-info">
@@ -158,8 +160,8 @@
             <div class="portfolio-wrap">
               <figure>
                 <img src="{{ asset('/img/portfolio/web2.jpg') }}" class="img-fluid" alt="">
-                <a href="{{ asset('/img/portfolio/web2.jpg') }}" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 2"><i class="bi bi-plus"></i></a>
-                
+                <a href="{{ asset('/img/portfolio/web2.jpg') }}" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" ><i class="bi bi-plus"></i></a>
+                <a href="{{ url('gallery') }}" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
               </figure>
   
               <div class="portfolio-info">
@@ -173,8 +175,8 @@
             <div class="portfolio-wrap">
               <figure>
                 <img src="{{ asset('/img/portfolio/app3.jpg') }}" class="img-fluid" alt="">
-                <a href="{{ asset('/img/portfolio/app3.jpg') }}" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="App 3"><i class="bi bi-plus"></i></a>
-                
+                <a href="{{ asset('/img/portfolio/app3.jpg') }}" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" ><i class="bi bi-plus"></i></a>
+                <a href="{{ url('gallery') }}" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
               </figure>
   
               <div class="portfolio-info">
@@ -188,8 +190,8 @@
             <div class="portfolio-wrap">
               <figure>
                 <img src="{{ asset('/img/portfolio/card1.jpg') }}" class="img-fluid" alt="">
-                <a href="{{ asset('/img/portfolio/card1.jpg') }}" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 1"><i class="bi bi-plus"></i></a>
-                
+                <a href="{{ asset('/img/portfolio/card1.jpg') }}" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" ><i class="bi bi-plus"></i></a>
+                <a href="{{ url('gallery') }}" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
               </figure>
   
               <div class="portfolio-info">
@@ -203,8 +205,8 @@
             <div class="portfolio-wrap">
               <figure>
                 <img src="{{ asset('/img/portfolio/card3.jpg') }}" class="img-fluid" alt="">
-                <a href="{{ asset('/img/portfolio/card3.jpg') }}" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 3"><i class="bi bi-plus"></i></a>
-                
+                <a href="{{ asset('/img/portfolio/card3.jpg') }}" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery"><i class="bi bi-plus"></i></a>
+                <a href="{{ url('gallery') }}" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
               </figure>
   
               <div class="portfolio-info">
@@ -218,8 +220,8 @@
             <div class="portfolio-wrap">
               <figure>
                 <img src="{{ asset('/img/portfolio/web1.jpg') }}" class="img-fluid" alt="">
-                <a href="{{ asset('/img/portfolio/web1.jpg') }}" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 1"><i class="bi bi-plus"></i></a>
-                
+                <a href="{{ asset('/img/portfolio/web1.jpg') }}" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery"><i class="bi bi-plus"></i></a>
+                <a href="{{ url('gallery') }}" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
               </figure>
   
               <div class="portfolio-info">
