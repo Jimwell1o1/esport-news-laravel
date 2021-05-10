@@ -265,6 +265,105 @@ h6 {
     visibility: visible;
 }
 
+/*--------------------------------------------------------------
+# Log In / Register
+--------------------------------------------------------------*/
+
+.navbar .navbar-brand b {
+	color: #18d26e;		
+    list-style: none;
+}
+.navbar .form-inline {
+	display: inline-block;
+    list-style: none;
+}
+.navbar a {
+	color: #888;
+	font-size: 15px;
+    list-style: none;
+}
+.search-box {
+	position: relative;
+}	
+.search-box input {
+	padding-right: 35px;
+	border-color: #dfe3e8;
+	border-radius: 4px !important;
+	box-shadow: none
+}
+.search-box .input-group-text {
+	min-width: 35px;
+	border: none;
+	background: transparent;
+	position: absolute;
+	right: 0;
+	z-index: 9;
+	padding: 7px;
+	height: 100%;
+}
+.search-box i {
+	color: #a0a5b1;
+	font-size: 19px;
+
+}
+.navbar .sign-up-btn {
+	max-height: 36px;
+    list-style: none;
+}
+.navbar .dropdown-menu {
+	color: #999;
+	font-weight: normal;
+	border-radius: 1px;
+	border-color: #e5e5e5;
+	box-shadow: 0 2px 8px rgba(0,0,0,.05);
+    list-style: none;
+}
+.navbar a, .navbar a:active {
+	color: #888;
+	padding: 8px 20px;
+	background: transparent;
+	line-height: normal;
+    list-style: none;
+}
+.navbar .navbar-form {
+	border: none;
+
+}
+.navbar .action-form {
+	width: 280px;
+	padding: 20px;
+	left: auto;
+	right: 0;
+	font-size: 14px;
+
+}
+.navbar .action-form a {		
+	color: #18d26e;
+	padding: 0 !important;
+	font-size: 14px;
+
+}
+.navbar .action-form .hint-text {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 13px;
+
+}
+.navbar .btn-primary, .navbar .btn-primary:active {
+	color: #fff;
+	background: #15b660 !important;
+	border: none;
+    margin-left: 5px;
+
+}	
+.navbar .btn-primary:hover, .navbar .btn-primary:focus {		
+	color: #fff;
+	background: #31bfb1 !important;
+}
+
+/*--------------------------------------------------------------
+# End of Log In / Register
+--------------------------------------------------------------*/
 @media (max-width: 1366px) {
     .navbar .dropdown .dropdown ul {
         left: -90%;
