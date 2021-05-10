@@ -20,6 +20,7 @@
               <li><i class="bi bi-chevron-right"></i> <a href="{{ url('about') }}">About us</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="{{ url('gallery') }}">Gallery</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="{{ url('contact') }}">Contact Us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{{ url('login') }}">Log In</a></li>
             </ul>
           </div>
 

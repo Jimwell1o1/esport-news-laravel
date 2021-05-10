@@ -21,4 +21,5 @@ Route::get('news', [App\Http\Controllers\myController::class, 'news']);
 Route::get('gallery', [App\Http\Controllers\myController::class, 'gallery']);
 Route::get('team', [App\Http\Controllers\myController::class, 'team']);
 Route::get('contact', [App\Http\Controllers\myController::class, 'contact']);
+Route::get('login', [App\Http\Controllers\myController::class, 'login']);
 

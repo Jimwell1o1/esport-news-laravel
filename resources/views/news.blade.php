@@ -13,8 +13,8 @@
               <li><a class="nav-link scrollto" href="{{ url('about') }}">About</a></li>
               <li><a class="nav-link scrollto " href="{{ url('gallery') }}">Gallery</a></li>
               <li><a class="nav-link scrollto" href="{{ url('team') }}">Team</a></li>
-              </li>
               <li><a class="nav-link scrollto" href="{{ url('contact') }}">Contact</a></li>
+              <li><a class="nav-link scrollto active" href="{{ url('login') }}">Log In</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
           </nav><!-- .navbar -->
