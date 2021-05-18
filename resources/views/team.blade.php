@@ -9,7 +9,7 @@
             <ul>
               <li><a class="nav-link scrollto" href="{{ url('index') }}">Home</a></li>
               <li><a class="nav-link scrollto" href="{{ url('news') }}">News</a></li>
-              <li><a class="nav-link scrollto" href="{{ url('contact') }}">Blog</a></li>
+              <li><a class="nav-link scrollto" href="{{ url('blog') }}">Blog</a></li>
               <li><a class="nav-link scrollto" href="{{ url('about') }}">About</a></li>
               <li><a class="nav-link scrollto" href="{{ url('gallery') }}">Gallery</a></li>
               <li><a class="nav-link scrollto active" href="{{ url('team') }}">Team</a></li>
