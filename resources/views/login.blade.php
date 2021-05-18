@@ -21,78 +21,51 @@
 @endsection
 
 @section('content')
-<br><br>
-<!-- ======= Login Section ======= -->
+  <!-- ======= Breadcrumbs Section ======= -->
+  <section class="breadcrumbs">
+      <div class="container">
 
-<div class="modal fade" id="darkModalForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog form-dark" role="document">
-    <!--Content-->
-    <div class="modal-content card card-image" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/pricing-table%20(7).jpg');">
-      <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
-        <!--Header-->
-        <div class="modal-header text-center pb-4">
-          <h3 class="modal-title w-100 white-text font-weight-bold" id="myModalLabel"><strong>SIGN</strong> <a
-              class="green-text font-weight-bold"><strong> UP</strong></a></h3>
-          <button type="button" class="close white-text" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <!--Body-->
-        <div class="modal-body">
-          <!--Body-->
-          <div class="md-form mb-5">
-            <input type="email" id="Form-email5" class="form-control validate white-text">
-            <label data-error="wrong" data-success="right" for="Form-email5">Your email</label>
-          </div>
-
-          <div class="md-form pb-3">
-            <input type="password" id="Form-pass5" class="form-control validate white-text">
-            <label data-error="wrong" data-success="right" for="Form-pass5">Your password</label>
-            <div class="form-group mt-4">
-              <input class="form-check-input" type="checkbox" id="checkbox624">
-              <label for="checkbox624" class="white-text form-check-label">Accept the<a href="#" class="green-text font-weight-bold">
-                  Terms and Conditions</a></label>
-            </div>
-          </div>
-
-          <!--Grid row-->
-          <div class="row d-flex align-items-center mb-4">
-
-            <!--Grid column-->
-            <div class="text-center mb-3 col-md-12">
-              <button type="button" class="btn btn-success btn-block btn-rounded z-depth-1">Sign up</button>
-            </div>
-            <!--Grid column-->
-
-          </div>
-          <!--Grid row-->
-
-          <!--Grid row-->
-          <div class="row">
-
-            <!--Grid column-->
-            <div class="col-md-12">
-              <p class="font-small white-text d-flex justify-content-end">Have an account? <a href="#" class="green-text ml-1 font-weight-bold">
-                  Log in</a></p>
-            </div>
-            <!--Grid column-->
-
-          </div>
-          <!--Grid row-->
-
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Registration Page</h2>
+          <ol>
+            <li><a href="{{ url('index') }}">Home</a></li>
+            <li>Register</li>
+          </ol>
         </div>
       </div>
-    </div>
-    <!--/.Content-->
-  </div>
-</div>
-<!-- Modal -->
+    </section><!-- End Breadcrumbs Section -->
+    <!-- ======= Registration Form ======= -->
+    <section id="contact" class="section-bg">
+        <div class="container" data-aos="fade-up">
 
-<div class="text-center">
-  <a href="" class="btn btn-default btn-rounded" data-toggle="modal" data-target="#darkModalForm">Launch modal
-    register Form</a>
-</div>
-
-  </section><!-- End Login Section -->
+          <div class="form">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                Team Name
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Enter your Team Name" required>
+                </div>
+                <div class="form-group col-md-6">
+                Coach /Manager Email
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Enter your Email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              Players
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" placeholder="Full name - email" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Register</button></div>
+            </form>
+          </div>
+  
+        </div>
+      </section><!-- End Contact Section -->
   @endsection
