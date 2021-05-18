@@ -34,19 +34,22 @@
         </div>
       </div>
     </section><!-- End Breadcrumbs Section -->
-    <!-- ======= Registration Form Individual ======= -->
+
+  
+<!-- ======= Registration Form Individual ======= -->
     <section id="contact" class="section-bg">
         <div class="container" data-aos="fade-up">
 
+ 
         <div class="form">
-        <form>
+        <form id = "Individual">
         <label for="exampleInputEmail1" class="form-label">Application Type:</label><br>
         <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" onchange="handleChange1();">
         <label class="form-check-label" for="inlineRadio1">Individual Application</label>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" onchange="handleChange2();">
           <label class="form-check-label" for="inlineRadio2">Team Application</label>
         </div>
 
@@ -90,6 +93,9 @@
       </section><!-- End Contact Section -->
 
 <!-- ======= Registration Form Team ======= -->
+
+
+<form = "team">
 <section id="contact" class="section-bg">
         <div class="container" data-aos="fade-up">
 
@@ -131,4 +137,6 @@
 
         </div>
       </section><!-- End Contact Section -->
+
+    
   @endsection
