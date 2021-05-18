@@ -104,8 +104,8 @@
           <div class="mb-3">
           <div class="input-group">
               <span class="input-group-text">Team Coach</span>
-              <input type="text" aria-label="First name" class="form-control"  placeholder = "First Name">
-              <input type="text" aria-label="Last name" class="form-control"  placeholder = "Last Name">
+              <input type="text" aria-label="First name" class="form-control"  placeholder = "coachFirst Name">
+              <input type="text" aria-label="Last name" class="form-control"  placeholder = "coachLast Name">
             </div>
             <br>
             
@@ -114,6 +114,53 @@
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder = "example@gmail.com">
             <div id="emailHelp" class="form-text">Your email is protected with Us.</div>
           </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Team Name</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder = "Enter your Team Name">
+          </div>
+
+          <div class="mb-3">
+          <div class="input-group">
+              <span class="input-group-text">Player 1</span>
+              <input type="text" aria-label="First name" class="form-control"  placeholder = "Player1 Name">
+              <input type="text" aria-label="Last name" class="form-control"  placeholder = "Email Address">
+            </div>
+            <br>
+          
+            <div class="mb-3">
+          <div class="input-group">
+              <span class="input-group-text">Player 2</span>
+              <input type="text" aria-label="First name" class="form-control"  placeholder = "Player2 Name">
+              <input type="text" aria-label="Last name" class="form-control"  placeholder = "Email Address">
+            </div>
+            <br>
+
+            <div class="mb-3">
+          <div class="input-group">
+              <span class="input-group-text">Player 3</span>
+              <input type="text" aria-label="First name" class="form-control"  placeholder = "Player3 Name">
+              <input type="text" aria-label="Last name" class="form-control"  placeholder = "Email Address">
+            </div>
+            <br>
+
+            <div class="mb-3">
+          <div class="input-group">
+              <span class="input-group-text">Player 4</span>
+              <input type="text" aria-label="First name" class="form-control"  placeholder = "Player4 Name">
+              <input type="text" aria-label="Last name" class="form-control"  placeholder = "Email Address">
+            </div>
+            <br>
+
+            <div class="mb-3">
+          <div class="input-group">
+              <span class="input-group-text">Player 5</span>
+              <input type="text" aria-label="First name" class="form-control"  placeholder = "Player5 Name">
+              <input type="text" aria-label="Last name" class="form-control"  placeholder = "Email Address">
+            </div>
+            <br>
+
+
 
           <label for="choicegames" class="form-label">Choose your Games:</label>
           <div class="mb-3 form-check">
