@@ -38,34 +38,54 @@
     <section id="contact" class="section-bg">
         <div class="container" data-aos="fade-up">
 
-          <div class="form">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                Team Name
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Enter your Team Name" required>
-                </div>
-                <div class="form-group col-md-6">
-                Coach /Manager Email
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Enter your Email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              Players
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" placeholder="Full name - email" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Register</button></div>
-            </form>
+        <div class="form">
+        <form>
+        <label for="exampleInputEmail1" class="form-label">Application Type:</label>
+        <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <label class="form-check-label" for="inlineRadio1">Individual Application</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <label class="form-check-label" for="inlineRadio2">Team Application</label>
+        </div>
+
+        <hr>
+        
+          <div class="mb-3">
+          <div class="input-group">
+              <span class="input-group-text">Name</span>
+              <input type="text" aria-label="First name" class="form-control"  placeholder = "First Name">
+              <input type="text" aria-label="Last name" class="form-control"  placeholder = "Last Name">
+            </div>
+            <br>
+            
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Your email is protected with Us.</div>
           </div>
-  
+
+          <label for="choicegames" class="form-label">Choose your Games:</label>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Mobile Legends</label>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Call of Duty Mobile</label>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">League of Legends</label>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Valorant</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+
         </div>
       </section><!-- End Contact Section -->
   @endsection
