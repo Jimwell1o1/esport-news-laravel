@@ -41,4 +41,9 @@ class myController extends Controller
 
         return view('login');
     }
+
+    public function blog(){
+
+        return view('blog');
+    }
 }
