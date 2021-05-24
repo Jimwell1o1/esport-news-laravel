@@ -77,7 +77,8 @@
                 class="form-control"
                 type="text" 
                 name="title" 
-                placeholder="Post Title.....">
+                placeholder="Post Title....."
+                required>
                 <br>
 
             <h5>DESCRIPTION</h5>
@@ -85,7 +86,8 @@
                 class="form-control"
                 name="description" 
                 rows="8"
-                placeholder="Post Description....."></textarea>
+                placeholder="Post Description....."
+                required></textarea>
                 <br>
 
             <label>
@@ -95,7 +97,8 @@
               <input 
                   class="form-control"
                   type="file"
-                  name="image">
+                  name="image"
+                  required>
             </label>
             <br><br>
          
