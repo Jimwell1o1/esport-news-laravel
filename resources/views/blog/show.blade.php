@@ -67,6 +67,23 @@
           <div class="col-lg-4">
             <div class="portfolio-info">
               <h3>{{ $post->title }}</h3>
+              @if (isset(Auth::user()->id) && Auth::user()->id==$post->user_id)
+              <form action="/blog/{{ $post->slug }}" method="POST">
+                @csrf
+                @method('delete')
+                  <a href="/blog/{{ $post->slug }}/edit">
+                    <button type="button" class="btn btn-sm btn-outline-primary">Edit Post</button>
+                 
+                  </a>
+                  <button type="submit" class="btn btn-sm btn-outline-danger" 
+                  onclick="return confirm('Are you sure you want to delete this post?')">
+                  Delete</button>
+                    
+                      </form>
+                 
+                    <br>
+    
+              @endif
               <ul>
                   <li><strong>Author</strong>: {{ $post->user->name }}</li>
                   <li><strong>Created on</strong>: {{ date('jS M Y', strtotime($post->updated_at)) }}</li>
