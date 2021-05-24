@@ -75,22 +75,23 @@
 
       <div class="col-lg-4">
         <div class="portfolio-info">
+          
           <h3>{{ $post->title }}</h3>
           @if (isset(Auth::user()->id) && Auth::user()->id==$post->user_id)
-              <span>
-                <a href="/blog/{{ $post->slug }}/edit">Edit</a>
-              </span>
-              
-              <span>
-               <form action="/blog/{{ $post->slug }}" method="POST">
-              @csrf
-              @method('delete')
-
-              <button type="submit" onclick="return confirm('Are you sure you want to delete this post?')">
-                  Delete
-              </button>
-              </form>
-              </span>
+          <form action="/blog/{{ $post->slug }}" method="POST">
+            @csrf
+            @method('delete')
+              <a href="/blog/{{ $post->slug }}/edit">
+                <button type="button" class="btn btn-sm btn-outline-primary">Edit Post</button>
+             
+              </a>
+              <button type="submit" class="btn btn-sm btn-outline-danger" 
+              onclick="return confirm('Are you sure you want to delete this post?')">
+              Delete</button>
+                
+                  </form>
+             
+                <br>
 
           @endif
           <ul>
@@ -98,8 +99,11 @@
               <li><strong>Created on</strong>: {{ date('jS M Y', strtotime($post->updated_at)) }}</li>
             </ul>
           <p>
-            {{ $post->description }}
-          <a href="/blog/{{ $post->slug }}">Read more...</a>
+            {{ $post->description = Str::limit($post->description, 150) }}
+          <br><br>
+            <a href="/blog/{{ $post->slug }}">
+          <button type="button" class="btn btn-outline-success">Read More</button>
+        </a>
           </p>
     
           

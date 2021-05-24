@@ -55,7 +55,7 @@
               <div class="swiper-wrapper align-items-center">
     
                 <div class="">
-                  <img src="{{ asset('img/portfolio/portfolio-details-1.jpg') }}" alt="">
+                  <img src="{{ asset('images/'. $post->image_path) }}" alt="">
                 </div>
     
     
@@ -83,4 +83,5 @@
       </div>
     
     </section><!-- End Portfolio Details Section -->
+    <br><br><br>
 @endsection
