@@ -15,7 +15,8 @@
               <li><a class="nav-link scrollto" href="{{ url('gallery') }}">Gallery</a></li>
               <li><a class="nav-link scrollto" href="{{ url('team') }}">Team</a></li>
               <li><a class="nav-link scrollto" href="{{ url('contact') }}">Contact</a></li>
-              <li><a class="btn btn-primary sign-up-btn" href="{{ url('login') }}">Log In</a></li>
+              
+              @include('layouts.navbar')
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
           </nav><!-- .navbar -->
@@ -52,27 +53,56 @@
       </div>
           
       @endif
+
+      <section id="createPost" class="section-bg">
+        <div class="container" data-aos="fade-up">
   
-      <form 
+
+          <div class="section-header justify-content-between">
+            <h3>UPDATE YOUR POST</h3>
+
+          </div>
+  
+         
+          <div class="form" >
+            <form 
             action="/blog/{{ $post->slug }}"
             method="POST"
             enctype="multipart/form-data">
             @csrf
             @method('PUT')
 
-            <input 
+            <h5>TITLE</h5>
+            <input
+                class="form-control"
                 type="text" 
                 name="title" 
                 value="{{ $post->title }}">
                 <br>
-            <textarea 
+
+            <h5>DESCRIPTION</h5>
+            <textarea
+                class="form-control"
                 name="description" 
+                rows="8"
                 >{{ $post->description }}</textarea>
                 <br>
+
+            <br>
             
+         
+            <div class="section-header justify-content-between">
             <button
+                class="buttonCreatepost"
                 type="submit">
-              Submit Post
+              Update Post
             </button>
+          </div>
       </form>
+    </div>
+        
+  
+        </div>
+        <br><br><br><br>
+  </section><!-- End Contact Section -->
 @endsection
