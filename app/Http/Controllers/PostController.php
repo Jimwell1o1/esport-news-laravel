@@ -64,7 +64,7 @@ class PostController extends Controller
             'user_id' => auth()->user()->id
         ]);
 
-        return redirect('/blog')->with('message', 'Your post has been added! ');
+        return redirect('/blog')->with('message', 'Your post has been added successfully! ');
     }
 
     /**
@@ -115,7 +115,7 @@ class PostController extends Controller
                 'user_id' => auth()->user()->id
             ]);
 
-            return redirect('/blog')->with('message', 'Your post has been updated! ');
+            return redirect('/blog')->with('message', 'Your post has been updated successfully! ');
     }
 
     /**
@@ -129,6 +129,6 @@ class PostController extends Controller
         $post = Post::where('slug', $slug);
         $post->delete();
 
-        return redirect('/blog')->with('message', 'Your post has been deleted! ');
+        return redirect('/blog')->with('message', 'Your post has been deleted successfully! ');
     }
 }
