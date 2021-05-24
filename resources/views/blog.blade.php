@@ -29,7 +29,7 @@
 <br><br><br><br>
 <header class="section-header">
     <h3>RECENT POSTS</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Create and See our Latest Post for the Games.You can put reviews, updates and other concern about the Esports Industry</p>
 </header>
 @if (session()->has('message'))
   <div>
@@ -39,11 +39,12 @@
 
 
 @if (Auth::check())
-  <div>
-    <a href="/blog/create" >
+  <div class = "text-center">
+    <a class="btn btn-secondary btn-lg btn-success " href="/blog/create" >
       Create a post
     </a>
   </div>
+  
   
 @endif
 
