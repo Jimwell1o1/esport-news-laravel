@@ -40,46 +40,6 @@
           
       @endif
   
-  <!--    OLD FORM FOR POST
-          <form 
-            action="/blog"
-            method="POST"
-            enctype="multipart/form-data">
-            @csrf
-
-            <h5>TITLE</h5>
-            <input class="form-control" 
-                type="text" 
-                name="title" 
-                placeholder="Post Title.....">
-                <br>
-
-            <h5>DESCRIPTION</h5>
-            <textarea  class="form-control
-                name="description" 
-                placeholder="Post Description....."></textarea>
-                <br>
-
-            <label>
-              <span>
-                Select a file
-              </span>
-              <input 
-                  type="file"
-                  name="image">
-            </label>
-            <br><br>
-
-            <button class="btn btn-primary"
-                type="submit">
-              Submit Post
-            </button>
-      </form>
-
-    <br><br>-->
-
-
-
      <!-- ======= Create post ======= -->
 
      <section class="breadcrumbs">
@@ -88,14 +48,14 @@
            
             <ol>
               <li><a href="{{ url('blog') }}">Blog</a></li>
-              <li>Create Post</li>
+              <li>Create a Post</li>
             </ol>
           </div>
   
         </div>
       </section>
 
-    <section id="contact" class="section-bg">
+    <section id="createPost" class="section-bg">
         <div class="container" data-aos="fade-up">
   
 
@@ -105,48 +65,52 @@
           </div>
   
          
-          <div class="form">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-      
-             
-              <div class="form-group">
-              TITLE
-                <input type="text" 
-                class="form-control" 
-                name="title" 
-                id="subject" 
-                placeholder="Post Title..." required>
-              </div>
-              <div class="form-group">
-              DESCRIPTION
-                <textarea class="form-control" 
-                name="description" 
-                rows="5"
-                placeholder="Post Descriptions..." required></textarea>
-              </div>
+          <div class="form" >
+            <form 
+            action="/blog"
+            method="POST"
+            enctype="multipart/form-data">
+            @csrf
 
-              <label>
+            <h5>TITLE</h5>
+            <input
+                class="form-control"
+                type="text" 
+                name="title" 
+                placeholder="Post Title.....">
+                <br>
+
+            <h5>DESCRIPTION</h5>
+            <textarea
+                class="form-control"
+                name="description" 
+                rows="8"
+                placeholder="Post Description....."></textarea>
+                <br>
+
+            <label>
               <span>
-                Select a file
+                Upload an Image
               </span>
               <input 
+                  class="form-control"
                   type="file"
                   name="image">
             </label>
-
-
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your Post has been sent. Thank you!</div>
-              </div>
-
-              <div class="text-center">
-              <button type="submit">SUBMIT POST</button>
-              </div>
-            </form>
+            <br><br>
+         
+            <div class="section-header justify-content-between">
+            <button
+                class="buttonCreatepost"
+                type="submit">
+              Submit Post
+            </button>
           </div>
+      </form>
+    </div>
+        
   
         </div>
+        <br><br><br><br><br><br>
       </section><!-- End Contact Section -->
 @endsection
