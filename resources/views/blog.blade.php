@@ -40,7 +40,7 @@
 
 @if (Auth::check())
   <div class = "text-center">
-    <a class="btn btn-secondary btn-lg btn-success " href="/blog/create" >
+    <a class="btn btn-secondary btn-lg btn-success createPostButton" href="/blog/create" >
       Create a post
     </a>
   </div>
