@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.app')
 
 
 @section('headercontent')
@@ -16,7 +16,9 @@
               <li><a class="nav-link scrollto " href="{{ url('gallery') }}">Gallery</a></li>
               <li><a class="nav-link scrollto" href="{{ url('team') }}">Team</a></li>
               <li><a class="nav-link scrollto" href="{{ url('contact') }}">Contact</a></li>
-              <li><a class="btn btn-primary sign-up-btn" href="{{ url('login') }}">Log In</a></li>
+              
+              @include('layouts.navbar')
+              
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
           </nav><!-- .navbar -->
