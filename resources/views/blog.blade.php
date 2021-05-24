@@ -29,11 +29,16 @@
 <br><br><br><br>
 <header class="section-header">
     <h3>RECENT POSTS</h3>
-    <p>Create and See our Latest Post for the Games.You can put reviews, updates and other concern about the Esports Industry</p>
+    <p>See our Latest Post from our lovely users. This is a forum where you can read reviews, updates and other concerns about the Esports Industry</p>
 </header>
 @if (session()->has('message'))
-  <div>
+  <div id="myDIV">
     <p>{{ session()->get('message') }}</p>
+    <div class='alert alert-success alert-dismissible' style="margin-left: 120px;margin-right: 120px;">
+     
+      <button type='button' class='close' data-dismiss='alert' onclick="myFunction()">&times;</button>
+      {{ session()->get('message') }}
+    </div>
   </div>
 @endif
 
@@ -75,14 +80,14 @@
           @if (isset(Auth::user()->id) && Auth::user()->id==$post->user_id)
               <span>
                 <a href="/blog/{{ $post->slug }}/edit">Edit</a>
-        
               </span>
+              
               <span>
                <form action="/blog/{{ $post->slug }}" method="POST">
               @csrf
               @method('delete')
 
-              <button type="submit">
+              <button type="submit" onclick="return confirm('Are you sure you want to delete this post?')">
                   Delete
               </button>
               </form>
@@ -105,5 +110,16 @@
   </div>
 
 @endforeach
+<br><br><br>
 </section><!-- End Portfolio Details Section -->
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 @endsection
