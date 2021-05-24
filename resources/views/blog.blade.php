@@ -33,7 +33,6 @@
 </header>
 @if (session()->has('message'))
   <div id="myDIV">
-    <p>{{ session()->get('message') }}</p>
     <div class='alert alert-success alert-dismissible' style="margin-left: 120px;margin-right: 120px;">
      
       <button type='button' class='close' data-dismiss='alert' onclick="myFunction()">&times;</button>
