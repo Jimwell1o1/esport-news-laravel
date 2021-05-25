@@ -23,12 +23,27 @@
 @endsection
 
 @section('content')
-<br><br><br><br><br><br><br><br>
+
+    <!-- ======= Breadcrumbs Section ======= -->
+    <section class="breadcrumbs">
+        <div class="container">
+  
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>Register Page</h2>
+            <ol>
+              <li><a href="{{ url('/') }}">Home</a></li>
+              <li>Register</li>
+            </ol>
+          </div>
+  
+        </div>
+      </section><!-- End Breadcrumbs Section -->
+<br><br><br>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
+                <div class="card-header">{{ __('Enter your Details') }}</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">

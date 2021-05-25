@@ -23,7 +23,25 @@
 @endsection
 
 @section('content')
-<br><br><br><br><br><br><br>
+
+
+
+    <!-- ======= Breadcrumbs Section ======= -->
+    <section class="breadcrumbs">
+        <div class="container">
+  
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>Log In Page</h2>
+            <ol>
+              <li><a href="{{ url('/') }}">Home</a></li>
+              <li>Log In</li>
+            </ol>
+          </div>
+  
+        </div>
+      </section><!-- End Breadcrumbs Section -->
+
+      <br><br><br>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -39,7 +57,7 @@
 
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
-
+                                <br>
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -94,5 +112,5 @@
         </div>
     </div>
 </div>
-<br><br><br><br>
+<br><br><br><br><br>
 @endsection
