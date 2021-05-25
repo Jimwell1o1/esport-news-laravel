@@ -87,6 +87,7 @@
                 name="description" 
                 rows="8"
                 placeholder="Post Description....."
+                maxlength="400"
                 required></textarea>
                 <br>
 

@@ -44,6 +44,7 @@
 
 @if (Auth::check())
   <div class = "text-center">
+   
     <a class="btn btn-secondary btn-lg btn-success createPostButton" href="/blog/create" >
       Create a post
     </a>
@@ -99,7 +100,7 @@
               <li><strong>Created on</strong>: {{ date('jS M Y', strtotime($post->updated_at)) }}</li>
             </ul>
           <p>
-            {{ $post->description = Str::limit($post->description, 150) }}
+            {{ $post->description = Str::limit($post->description, 180) }}
           <br><br>
             <a href="/blog/{{ $post->slug }}">
           <button type="button" class="btn btn-outline-success">Read More</button>

@@ -85,6 +85,7 @@
                 class="form-control"
                 name="description" 
                 rows="8"
+                maxlength="400"
                 >{{ $post->description }}</textarea>
                 <br>
 
