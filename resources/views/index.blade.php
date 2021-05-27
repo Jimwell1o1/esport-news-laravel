@@ -92,8 +92,8 @@
             <div class="carousel-container">
               <div class="container">
                 <h2 class="animate__animated animate__fadeInDown">Don't have account yet? Sign up now</h2>
-                <p class="animate__animated animate__fadeInUp">Get in touch with us if you want to reach us. If you need anything other than our services, please contact us and we will get back to you as soon as possible!</p>
-                <a href="{{ url('contact') }}" class="btn-get-started scrollto animate__animated animate__fadeInUp">Contact Us</a>
+                <p class="animate__animated animate__fadeInUp"></p>
+                <a href="{{ url('register') }}" class="btn-get-started scrollto animate__animated animate__fadeInUp">Contact Us</a>
               </div>
             </div>
           </div>
