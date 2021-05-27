@@ -43,9 +43,9 @@
               <h4>John Jimwell Rabino</h4>
               <span>Team Leader</span>
               <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="https://twitter.com/Jimwell1o1?s=07"><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="https://www.facebook.com/imsotall"><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class=""><i class="bi bi-instagram"></i></a>
               </div>
             </div>
           </div>
@@ -60,9 +60,9 @@
               <h4>Aaron John Dumapias</h4>
               <span>Front End Developer</span>
               <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="https://mobile.twitter.com/aaroncutez"><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="https://www.facebook.com/aaronzxc1027/"><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class=""><i class="bi bi-instagram"></i></a>
               </div>
             </div>
           </div>
@@ -77,9 +77,9 @@
               <h4>Jan Carlo Raymundo</h4>
               <span>Content Manager</span>
               <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="https://twitter.com/CarlooRaymundo?s=07"><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="https://www.facebook.com/jancarlo.raymundo/"><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class=""><i class="bi bi-instagram"></i></a>
               </div>
             </div>
           </div>
@@ -94,9 +94,9 @@
               <h4>John Carlo Paclibar</h4>
               <span>Editor in Chief</span>
               <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class=""><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="https://www.facebook.com/Miraclez25"><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class=""><i class="bi bi-instagram"></i></a>
               </div>
             </div>
           </div>
