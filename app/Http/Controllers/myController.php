@@ -46,4 +46,9 @@ class myController extends Controller
 
         return view('blog');
     }
+
+    public function register(){
+
+        return auth('register');
+    }
 }
