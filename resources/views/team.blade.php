@@ -44,7 +44,7 @@
               <span>Team Leader</span>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="https://www.facebook.com/imsotall"><i class="bi bi-facebook"></i></a>
                 <a href=""><i class="bi bi-instagram"></i></a>
               </div>
             </div>
@@ -61,7 +61,7 @@
               <span>Front End Developer</span>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="https://www.facebook.com/aaronzxc1027/"><i class="bi bi-facebook"></i></a>
                 <a href=""><i class="bi bi-instagram"></i></a>
               </div>
             </div>
@@ -78,7 +78,7 @@
               <span>Content Manager</span>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="https://www.facebook.com/jancarlo.raymundo/"><i class="bi bi-facebook"></i></a>
                 <a href=""><i class="bi bi-instagram"></i></a>
               </div>
             </div>
@@ -95,7 +95,7 @@
               <span>Editor in Chief</span>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="https://www.facebook.com/Miraclez25"><i class="bi bi-facebook"></i></a>
                 <a href=""><i class="bi bi-instagram"></i></a>
               </div>
             </div>
