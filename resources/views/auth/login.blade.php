@@ -31,7 +31,7 @@
         <div class="container">
   
           <div class="d-flex justify-content-between align-items-center">
-            <h2>Log In Page</h2>
+            <h2></h2>
             <ol>
               <li><a href="{{ url('/') }}">Home</a></li>
               <li>Log In</li>
@@ -46,7 +46,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
+                <div class="card-header text-center">{{ __('Login') }}</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">

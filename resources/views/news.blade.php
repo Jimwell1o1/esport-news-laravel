@@ -149,6 +149,7 @@ All Knights is well known for its League Of Legends team. The org competes in th
             </p>
           </div>
         </div>
+
         <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
           <div class="about-col">
             <div class="img">
@@ -164,6 +165,46 @@ The deal will see Zenni named as the presenting partner for the Stage Two Major,
             </p>
           </div>
         </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="about-col">
+            <div class="img">
+              <img src="{{ asset('/img/news/news-10.jpg') }}" alt="" class="img-fluid">
+              <div class="icon"><i class="bi bi-controller"></i></div>
+            </div>
+            <h2 class="title"><a href="https://www.callofduty.com/mobile/esports">Call Of Duty®: Mobile World Championship 2021</a></h2>
+            <p>
+            In Collaboration with Sony, the 2021 Tournament Begins June 3
+
+It’s time to rank up ahead of the Call of Duty: Mobile World Championship 2021 Presented by Sony, which goes live June 3rd! Play every eligible weekend to win Epic rewards and qualify for later stages where you can compete for a share of more than $2 million.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="about-col">
+            <div class="img">
+              <img src="{{ asset('/img/news/news-11.jpg') }}" alt="" class="img-fluid">
+              <div class="icon"><i class="bi bi-controller"></i></div>
+            </div>
+            <h2 class="title"><a href="https://playvalorant.com/en-sg/news/esports/2021-vct-stage-2-challengers-sea-playoffs-qualified-teams-tournament-format-broadcast-schedule/">2021 Valorant Champions Tour Stage 2 Challengers SEA</a></h2>
+            <p>
+            May 2nd for the ultimate regional showdown and take their first step towards VALORANT Champions. The winning team at the VCT Challengers SEA - Playoffs will represent the SEA region in VALORANT Masters: Reykjavik, competing alongside the best teams in North America, EMEA, Brazil, LATAM, Japan, and Korea.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="about-col">
+            <div class="img">
+              <img src="{{ asset('/img/news/news-12.jpg') }}" alt="" class="img-fluid">
+              <div class="icon"><i class="bi bi-controller"></i></div>
+            </div>
+            <h2 class="title"><a href="https://liquipedia.net/dota2/Dota_Pro_Circuit/2021">Dota Pro Circuit 2021</a></h2>
+            <p>
+            Starting with this season, Valve has once again reworked the Dota Pro Circuit. Regional Leagues replace the Minors, from which the Major participants are determined. This competitive Dota year is divided into two seasons, each punctuated by a Major. Roster locks are implemented from the start of each season until the end of the respective Major.</p>
+          </div>
+        </div>
+
       </div>
 
     </div>
