@@ -33,5 +33,7 @@ Run like this(Example): \
     cd C:\xampp\htdocs\Laravel\LaravelProject
 3. After you change the directory, type and enter this: 'composer update'
 4. After successful update, type and enter this: 'copy .env.example .env'
-5. After that, type and enter this: 'php artisan key:generate'
-6. After that key generate, you may now start laravel by entering 'php artisan serve'
+5. Open xampp, then start apache/xampp and create a database named "esports"
+6. After creating database, go to terminal and enter "php artisan migrate"
+6. After that, type and enter this: 'php artisan key:generate'
+7. After that key generate, you may now start laravel by entering 'php artisan serve'
