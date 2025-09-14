@@ -50,3 +50,34 @@ Run like this(Example): \
 6. After creating database, go to terminal and enter "php artisan migrate"
 7. After that, type and enter this: 'php artisan key:generate'
 8. After that key generate, you may now start laravel by entering 'php artisan serve'
+
+
+## HOW TO DEPLOY IN THE SERVER
+
+This is the most common and straightforward method for free hosting.
+
+1. Upload the contents of your local public folder (not the folder itself) directly into the htdocs folder on InfinityFree. This includes index.php, .htaccess, and your CSS/JS files.
+
+2. Upload all other Laravel project folders (app, bootstrap, config, database, resources, routes, vendor, etc.) to the same directory, at the same level as htdocs on the server. The public folder on your server should not exist, as its contents are now in htdocs.
+
+3. Edit the index.php file now located in htdocs. Change the two paths to point to your new project structure:
+require __DIR__ . '/../vendor/autoload.php';
+$app = require_once __DIR__ . '/../bootstrap/app.php';
+
+The paths are relative to the location of the index.php file itself.
+
+4. After uploading, you need to ensure your application can connect to the database.
+Go to your InfinityFree control panel and find your database credentials (username, password, host, and database name).
+Ensure your .env file on the server contains these exact credentials.
+
+/
+├── app/
+├── bootstrap/
+├── config/
+├── database/
+├── htdocs/  <- your website's root
+│   ├── ETC.. PUBLIC FOLDER FILES
+│   ├── index.php
+│   └── .htaccess
+├── public/  <- a mistake, don't upload this
+└── vendor/
