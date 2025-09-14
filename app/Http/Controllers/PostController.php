@@ -19,7 +19,7 @@ class PostController extends Controller
      */
     public function index()
     {
-   
+
         return view('blog')
             ->with('posts', Post::orderBy('updated_at', 'DESC')->get());
     }
@@ -53,8 +53,9 @@ class PostController extends Controller
         $newImageName = uniqid() . "-" . $request->title . '.' . $request->image->extension();
 
         $request->image->move(public_path('images'), $newImageName);
-     
-        
+        // infinityfree server
+        // $request->image->move(base_path('htdocs/images'), $newImageName);
+
 
         Post::create([
             'title' => $request->input('title'),
